@@ -1,6 +1,3 @@
-*.class
-*.log
-
 # macOS
 .DS_Store
 
@@ -12,11 +9,13 @@ src_managed/
 project/boot/
 project/plugins/project/
 project/local-plugins.sbt
+project/target/
 .history
 .ensime
 .ensime_cache/
 .sbt-scripted/
 local.sbt
+
 
 # Bloop
 .bsp
