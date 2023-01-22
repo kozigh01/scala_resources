@@ -11,6 +11,9 @@ lazy val section6 = (project in file("section6"))
 lazy val root = (project in file("."))
   .aggregate(section2, section3, section4, section5, section6)
   .dependsOn(section4, section5, section6)
+  .settings(
+    name := "udemy_AdvancedScalaAndFunctionalProgramming"
+  )
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.14" % Test

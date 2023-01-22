@@ -111,4 +111,4 @@ object TryErrorHandling:
   // TryErrorHandling.tryBasics
   // TryErrorHandling.tryUtilities
 // TryErrorHandling.tryMapFlatmapFilter
-TryErrorHandling.tryExercise1
+  TryErrorHandling.tryExercise1
