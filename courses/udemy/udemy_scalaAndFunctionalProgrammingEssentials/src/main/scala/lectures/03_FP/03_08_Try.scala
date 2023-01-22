@@ -107,7 +107,8 @@ object TryErrorHandling:
       //   case Success(value) => renderHTML(value)
       //   case Failure(exception) => println(exception)
 
-@main def TryErrorHandlingMain =
+      
+@main def TryErrorHandlingMain() =
   // TryErrorHandling.tryBasics
   // TryErrorHandling.tryUtilities
 // TryErrorHandling.tryMapFlatmapFilter
