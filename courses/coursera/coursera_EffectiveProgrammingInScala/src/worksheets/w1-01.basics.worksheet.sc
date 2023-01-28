@@ -41,5 +41,6 @@ def showPaintPrice(area: Double, price: Double): String =
 val expensivePaint = showPaintPrice(50, 3.5)
 val okayPaint = showPaintPrice(50, 1.75)
 val cheapPaint = showPaintPrice(50, .75)
+val cheapPaint2 = showPaintPrice(50, .75)
 
 
